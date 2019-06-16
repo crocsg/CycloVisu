@@ -357,7 +357,7 @@ void ofApp::draw(){
 void ofApp::keyPressed(int key){
 	if (key == 'r')
 	{
-		cam.setPosition(1, 1, 500);
+		cam.setPosition(1, 1, 1000);
 		cam.lookAt(ofVec3f(0, 0, 0));
 	}
 	if (key == 'f')
@@ -376,7 +376,11 @@ void ofApp::keyPressed(int key){
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
-
+	if (key == 'r')
+	{
+		cam.setPosition(1, 1, 500);
+		cam.lookAt(ofVec3f(0, 0, 0));
+	}
 }
 
 //--------------------------------------------------------------
