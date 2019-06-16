@@ -1,0 +1,6 @@
+
+*.pdb
+CycloVisu/bin/CycloVisu_debug.lib
+CycloVisu/bin/CycloVisu_debug.ilk
+CycloVisu/bin/CycloVisu_debug.exp
+CycloVisu/bin/CycloVisu_debug.exe
